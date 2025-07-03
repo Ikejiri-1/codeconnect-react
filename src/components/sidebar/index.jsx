@@ -21,16 +21,22 @@ export default function SideBar() {
               </a>
             </li>
             <li>
-              <img src={Account} alt="" />
-              <span>Perfil</span>
+              <a href="#">
+                <img src={Account} alt="" />
+                <span>Perfil</span>
+              </a>
             </li>
             <li>
-              <img src={Info} alt="" />
-              <span>Sobre nós</span>
+              <a href="#">
+                <img src={Info} alt="" />
+                <span>Sobre nós</span>
+              </a>
             </li>
             <li>
-              <img src={Logout} alt="" />
-              <span>Sair</span>
+              <a href="#">
+                <img src={Logout} alt="" />
+                <span>Sair</span>
+              </a>
             </li>
           </ul>
         </nav>
