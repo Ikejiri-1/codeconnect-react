@@ -1,0 +1,29 @@
+.filter-container ul li {
+  background-color: var(--light-gray);
+  color: var(--dark-gray);
+  padding: 0.25em 0.5em;
+  font-size: 18px;
+  border-radius: 4px;
+}
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+}
+.filter-list {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+.clear-button {
+  background-color: transparent;
+  color: var(--medium-gray);
+  border: none;
+  padding: 0.25em 0.5em;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.clear-button:hover {
+  color: var(--light-gray);
+  transition: all 0.2s ease-in-out;
+}
