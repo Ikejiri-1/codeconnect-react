@@ -1,0 +1,16 @@
+.ordenation-list {
+  display: flex;
+  list-style-type: none;
+  gap: 2em;
+  justify-content: center;
+  margin-top: 56px;
+}
+.ordenation-item {
+  color: var(--medium-gray);
+  font-size: 22px;
+  align-items: center;
+}
+.ordenation-item--active {
+  color: var(--green-highlight);
+  text-decoration: underline;
+}
