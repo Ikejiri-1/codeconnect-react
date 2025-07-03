@@ -19,7 +19,7 @@ aside {
   text-decoration: none;
   gap: 10px;
 }
-.item-link {
+.item__link {
   color: var(--light-gray);
 }
 .item-link--active {
