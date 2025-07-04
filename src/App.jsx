@@ -19,8 +19,10 @@ function App() {
         setLoading(false);
       });
   }, []);
-  const filteredData = data.filter((item) =>
-    item.titulo.toLowerCase().includes(searchTerm.toLowerCase())
+  const filteredData = data.filter(
+    (item) =>
+      item.titulo.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      item.resumo.toLowerCase().includes(searchTerm.toLowerCase())
   );
   return (
     <div className="container">
