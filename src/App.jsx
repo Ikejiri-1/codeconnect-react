@@ -1,5 +1,5 @@
 import SearchBar from "./components/SearchBar";
-import SideBar from "./components/sidebar";
+import SideBar from "./components/Sidebar";
 import "./App.css";
 import Filter from "./components/Filter";
 import Ordenation from "./components/Ordenation";
